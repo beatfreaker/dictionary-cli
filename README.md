@@ -31,5 +31,10 @@ Verb
    synonyms -  flavor, savor, relish, tang, smack, palate, taste buds, appetite, stomach, perceive
 ```
 
+## Inspiration
+[ntkme/dictionary](https://github.com/ntkme/dictionary)
+
+Note: This dictionary uses [Google's unofficial dictionary API](https://www.googleapis.com/scribe/v1/research?key=AIzaSyDqVYORLCUXxSv7zneerIgC2UYMnxvPeqQ&dataset=dictionary&dictionaryLanguage=en&query=query&callback=callback)
+
 ## License
 MIT © [Chintan Radia](https://beatfreaker.github.io/)
