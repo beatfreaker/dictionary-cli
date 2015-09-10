@@ -35,8 +35,8 @@ got.get(url, function (err, data, res) {
 	if (res.statusCode === 200) {
 		responseData = JSON.parse(data);
 		if (!responseData.data) {
-		  console.log('Details for specified word is not available');
-		  process.exit(2);
+			console.log('Details for specified word is not available');
+			process.exit(2);
 		}
 		dataArray = responseData.data[0].dictionary.definitionData;
 		for (var i = 0; i < dataArray.length; i++) {
