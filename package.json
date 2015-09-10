@@ -1,0 +1,33 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "Command line dictionary",
+  "license": "MIT",
+  "repository": "beatfreaker/dictionary-cli",
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "http://beatfreaker.github.io/"
+  },
+  "bin": {
+    "define": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "dictionary",
+    "cli",
+    "command line",
+    "definition",
+    "define"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "got": "^4.2.0",
+    "meow": "^3.3.0"
+  }
+}
