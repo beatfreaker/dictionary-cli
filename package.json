@@ -23,7 +23,10 @@
     "cli",
     "command line",
     "definition",
-    "define"
+    "define",
+    "Google",
+    "Unofficial",
+    "API"
   ],
   "dependencies": {
     "chalk": "^1.1.1",
